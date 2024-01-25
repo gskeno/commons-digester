@@ -1,0 +1,17 @@
+<zipfiles name="The Parent">
+    <zipfile type="123" interval = "456" delay = "789">
+        <srcdir>a</srcdir>
+        <destdirs>
+            <destdir>b</destdir>
+            <destdir>c</destdir>
+        </destdirs>
+    </zipfile>
+
+    <zipfile type="1" interval = "2" delay = "3">
+        <srcdir>d</srcdir>
+        <destdirs>
+            <destdir>e</destdir>
+            <destdir>f</destdir>
+        </destdirs>
+    </zipfile>
+</zipfiles>
